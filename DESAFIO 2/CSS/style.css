@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    background-color: rgba(13, 71, 161, 0.75);
+    border: 1px solid rgb(13, 71, 161);
+    margin-left: 80px;    
+}
+h1{
+    font-size: 35px;
+    margin-left: 480px;
+    margin-top: 50px;
+    color: #ffff;
+} 
+h2{
+    font-size: 22px;
+    margin-left: 380px;
+    color: #ffff;
+} 
+
+div#retangulo{
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-left: 450px;
+    position:absolute
+
+}
+div#retangulo > div#filho{
+    width: 150px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 100px;
+    border: 1px solid black;
+    position:relative;
+    background-color: white;    
+}
+div#retangulo > div#neto{
+    width: 150px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 100px;
+    border: 1px solid black;
+    position:relative;
+    background-color: rgb(2, 136, 209);   
+    box-shadow: 2px 2px 3px black; 
+}
+
+
